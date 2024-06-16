@@ -2,9 +2,9 @@ import "dotenv/config";
 import { ethers } from "ethers";
 import { abi } from "./abi";
 
-//contract adresi = 0x903fa9b6339b52fb351b1319c8c0411c044422df => https://era.zksync.network/address/0x903fa9b6339b52fb351b1319c8c0411c044422df
+//contract adresi = 0x66fd4fc8fa52c9bec2aba368047a0b27e24ecfe4 => https://era.zksync.network/address/0x66fd4fc8fa52c9bec2aba368047a0b27e24ecfe4
 
-const contractAddress = "0x903fa9b6339b52fb351b1319c8c0411c044422df";
+const contractAddress = "0x66fd4fc8fa52c9bec2aba368047a0b27e24ecfe4";
 
 const getProvider = (mainnet = false) => {
   const providerUrl = mainnet
